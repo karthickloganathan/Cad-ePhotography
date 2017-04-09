@@ -1,2 +1,2 @@
-# my-learning
-code place for my web learning
+My photography website
+Contain files of my website
