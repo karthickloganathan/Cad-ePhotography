@@ -1,2 +1,2 @@
-# my-learning
-code place for my web learning
+MY photography website
+contian intial design of my website
