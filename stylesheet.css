@@ -1,0 +1,323 @@
+html,body{	
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h2{
+	font-family:'playfair',serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2C2C2C;
+ text-align: center;
+	text-decoration: underline;
+}
+p{
+color:#2C2C2C;
+font-family:'Raleway',serif;
+font-size:140%;
+line-height 180%;
+text-align:justify;
+font-weight:300;
+}
+img{
+text-align:center;
+max-width:100%;
+height:auto;
+width:auto;
+}
+
+
+
+.clearfix{
+	clear: both;
+	height: 3%;
+	}
+/* style for header content  starts*/	
+.intro{
+    position: absolute;
+	top: 0px;
+    left:0px;
+	height: 100%;
+	width: 100%;
+	margin:auto;
+	background-image: url("img/cover.jpeg");
+	background-image: no-repeat 50% 50%;
+	background-size:cover;
+		}
+
+.content{margin: 0;
+    padding: 0;
+position :absolute;
+top:100%;
+left 0%;
+height:100%;
+width:100%;
+}
+.slide_container{
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position :absolute;
+top:200%;
+left 0%;
+}
+.lower{
+    margin-top: 10%;
+    position :absolute;
+top:300%;
+left 0%;
+height:100%;
+width:100%;
+}
+
+
+
+
+.inner{
+	width: 100%;
+	position: relative ;
+	top: 60%;
+	left: 30%;
+	
+}
+.inner .intro_txt {
+	max-width: 700px;
+	margin: auto;
+}
+.intro_txt h1{
+	font-family: serif;
+	font-size: 300%;
+	font-weight: 700;
+	color:#FFF;
+	padding: 2%;
+}
+.intro_txt p{
+	color: #FFF;
+}
+/*navigation start here*/
+nav{
+	float: left;
+	padding: 5% 5% 0% 0%;
+/*	background-color: aqua;*/
+	height: 50px;
+}
+nav ul{
+	float: left;
+	list-style: none;
+	
+}
+nav ul li{
+	font-family: sans-serif;
+	font-size: 120%;
+
+}
+nav ul li a{
+	color: #FFF;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	
+}
+nav ul,nav:active ul{
+	display: none;
+	padding: 8px 0px;
+	top: 130px;
+	left: 45px;
+	width: 20%;
+	z-index: 1000;
+	
+}
+nav li{
+	width: 100%;
+	padding: 8px 0px 10px 7px;
+	margin:0px;	
+}
+nav:hover ul{
+	display: block;
+	position: absolute;
+
+	
+}
+#menu{
+	width: 30px;
+	height: 26px;
+	background: url("img/nav2.png") center;
+    
+	background-size: cover;
+	display: inline-block;
+	margin: 50px 0px 0px 50px;
+}
+/*navigation over here*/
+/* style for header content  Ends*/	
+
+/* style for main Content  starts*/
+
+.side_text {
+
+	float: right;
+	width: 56%;
+	margin: 4% 4% 4% 0%;
+    line-height: 250%;
+}
+.side_pic {
+	float: left;
+	width: 28%;
+padding: 50px 0 0 0;
+	margin: 4% 2% 4% 10%;
+}
+
+
+
+.slide{
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.gallery_img {
+     position: relative;
+    padding: 0;
+	width: 29.333333%;
+	padding: 1% 2%;
+	float:left;
+    height: 29.333333%;
+margin: 0;
+/*    box-shadow: 10px 10px 10px #2C2C2C;*/
+}
+.gallery_img  img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.gallery_img  img:hover{
+	opacity: .6;
+}
+
+
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+	}
+.contact a{
+	color: #2C2C2C;
+	
+}
+
+.break {
+	display: none;
+}
+.parallax {
+	background:url("img/cover.jpeg") repeat fixed 100%;
+	opacity: .6;
+}
+.parallax_inner {
+	padding-top: 17%;
+}
+
+.footer {
+	background-color: #2C2C2c;
+	
+}
+.footer p{
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+}
+/* style for main Content  Ends*/
+
+/* style for other device starts*/
+@media screen and (max-width:768px){
+#menu{
+	
+	margin: 25px 0px 0px 25px;
+	}
+	
+nav ul,nav:active ul {
+	padding: 8px 0px;
+	top: 40px;
+	left: 20px;
+	width: 50%;
+}
+.intro_txt h1{
+		font-size: 200%;
+		}
+.intro_txt p{
+        font-size: 120%;
+		}	
+p{
+  
+line-height:150%;
+
+font-weight:100;
+      font-size:100%;
+}
+h2{
+font-size:120%;
+  }
+
+
+.side_text {
+
+        width:90%;
+        margin: 3% 5% 3% 5%;
+        line-height: 150%;
+    }
+
+    .side_pic  {
+
+	  width:80%;
+
+        box-shadow: 10px 10px 30px #2C2C2C;
+ 
+	
+}
+   
+
+  .slide_container{
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position :relative;
+top:230%;
+left 0%;
+} 
+.lower{
+    margin-top: 10%;
+    position :absolute;
+top:330%;
+left 0%;
+height:100%;
+width:100%;
+}
+
+    
+/*
+.parallax{
+display:none;
+}
+}
+ style for other device Ends
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
