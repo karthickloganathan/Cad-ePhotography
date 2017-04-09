@@ -1,2 +1,2 @@
-My photography website
-Contain files of my website
+#My photography website
+Contain initial design of my website
