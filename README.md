@@ -1,2 +1,2 @@
-MY photography website
+My Photography website
 contian intial design of my website
